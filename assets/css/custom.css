@@ -1,0 +1,484 @@
+body {
+	padding-top: 51px;
+}
+
+/*
+.container {
+	width: 1024px;
+}
+*/
+.container-fluid {
+	background-color: #000000;
+}
+/* Override default colour(s) of bootstrap nav bar (BLACK & YELLOW) */
+.navbar-inverse {
+    background-color: #000000;
+}
+
+.navbar-collapse {
+    background-color: #000000;
+}
+
+.navbar-header {
+    background-color: #000000;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+
+.bandeau {
+	background-color: #000000; 	/*ORIGINAL BLACK (better!) */
+/*	background-color: #feed01; /* ugly yellow colour !!! */
+/*	background-color: #01619e; /* New for 2017 */
+}
+
+.right-bar {
+	padding-top: 30px;
+}
+
+.sidebar-image {
+	margin: 10px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+h3 {
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+h4 {
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+p {
+	text-align: justify;
+}
+
+ul {
+	list-style-type: square;
+}
+
+li {
+	padding-bottom: 4px;
+}
+
+#map_canvas {
+        width: 600px;
+        height: 400px;
+      }
+
+
+dd {
+	text-align: justify;
+}
+
+/*
+* { margin: 0; padding: 0; }
+
+body {
+	font-family: sans-serif;
+	background-color: white;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.yellow {
+	color: #feed01;
+}
+
+.bav_colour_box {
+	background-color: #feed01;
+	border: 1px solid #000000;
+	padding: 10px;
+	border-radius: 4px;
+	margin: 10px 0px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+
+.emphasis {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.double_underline {
+	border-bottom: 3px double;
+}
+
+
+#container {
+	margin: auto;
+	width: 907px;
+}
+
+
+#header {
+	height: 129px;
+	background-color: black;
+}
+
+
+#navigation {
+	width: 100%;
+	background-color: black;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 30px;
+
+}
+
+#navigation li {
+	float: left;
+}
+
+#navigation ul a {
+	display: block;
+	padding: 8px 8px;
+	color: white;
+	font-weight: bold;
+	border-right: 1px solid white;
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#navigation ul a:hover {
+	color: black;
+	background-color: white;
+
+}
+
+
+.validation_error {
+	padding-left: 5px;
+	color: red;
+}
+
+#confirmation {
+	margin: auto;
+	margin-top: 15px; margin-bottom: 15px;
+	width: 350px;
+	text-align: center;
+	color: green;
+	font-weight: bold;
+	padding: 5px;
+	border: 2px solid green;
+}
+
+#animations li {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 18px;
+}
+
+
+#animations img {
+	float: left;
+	margin: 10px 15px 20px 0px;
+	border: 1px solid black;
+}
+
+#animations p {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+#animations h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#photos {
+	text-align: center;
+}
+
+#photos img {
+	margin: 5px;
+	border: 1px solid black;
+}
+
+
+#maincontent h3, #venir h3, #animations h3, #reglement h3, #faq h3, #telecharger h3, #subtitle h3 {
+	display: inline;
+	padding: 4px 8px;
+	background-color: black;
+	color: white;
+	border-radius: 4px;
+}
+
+img.link {
+	border: none;
+}
+
+p {
+	text-align: justify;
+	padding: 2px 5px 2px 5px;
+}
+
+ul {
+	margin: 10px 35px;
+	list-style-type: square;
+}
+
+li {
+	padding: 2px 0px;
+	}
+
+h4:first-letter {
+  text-transform: uppercase;
+}
+
+
+#maincontent a {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	border-bottom: 2px dotted black;
+}
+
+
+#astuce {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	padding: 10px 15px 10px 50px;
+	border: 1px solid #00529B;
+	border-radius: 4px;
+	font-weight: bold;
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('../images/info.png');
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	
+}
+
+#reglement {
+	width: 100%;
+}
+
+#reglement h4 {
+	padding: 5px 0px;
+}
+
+#reglement legend {
+	font-weight:bold;
+	padding: 5px;
+}
+
+#reglement fieldset {
+	width: 500px;
+	padding: 10px;
+	border-radius: 4px;
+	display: block;
+}
+
+#reglement label {
+	float: left;
+	width: 100px;
+	font-weight: bold;
+	margin: 2px;
+}
+
+#reglement input{ 
+	display: block;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 4px;
+}
+
+#reglement textarea {
+	display: block;
+	padding: 5px;
+	margin: 2px;
+	width: 370px;
+	border-radius: 4px;
+}
+
+#article {
+	padding: 5px 10px;
+}
+
+#article p {
+	padding-left: 5px;
+}
+
+#statistiques img {
+	width: 780px;
+}
+
+
+#telecharger table {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+#telecharger tr, #telecharger td, #telecharger th {
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#telecharger th {
+	font-size: 14px;
+}
+
+#telecharger img {
+	border: none;
+}
+
+
+#subtitle {
+	margin: 20px 0px;
+}
+
+
+#faq label {
+	width: 150px;
+	padding-right: 5px;
+	text-align: right;
+}
+
+#faq input[type=text] {
+	padding: 5px;
+}
+
+#faq textarea {
+	padding: 5px;
+}
+
+#faq table {
+	margin-top: 20px;
+}
+
+#faq_comment {
+	display: none;
+}
+
+
+
+
+
+// LOGIN PAGE PARAMETERS 
+#login label {
+	width: 150px;
+	padding-right: 5px;
+	text-align: right;
+}
+
+#login input[type=text] {
+	padding: 5px;
+}
+
+#login input[type=password] {
+	padding: 5px;
+}
+
+
+
+#qanda {
+	padding: 5px;
+}
+
+#viewquestions table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#viewquestions th {
+	background-color: #e7e7e7;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#viewquestions td {
+	padding: 5px;
+	border: 1px solid black;
+	text-align: justify;
+	vertical-align: top;
+}
+
+
+#contact {
+	background-color: black;
+	color: white;
+	width: 490px;
+	height: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+
+#contact h2 {
+	text-align: center;
+	color: #fade01;
+}
+
+#contact a {
+	color: #fade01;
+	text-decoration: none;
+}
+
+#contact p {
+	padding: 5px 0px;
+}
+
+
+#logo {
+	width: 100%;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#logo img {
+	margin: 0 auto;
+}
+
+#footer {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: black;
+	text-align: center;		
+}
+
+#footer h2 {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+*/
