@@ -9,9 +9,9 @@ class Welcome extends CI_Controller {
     {
         parent::__construct();
 
-		$this->weekend_dates['dates'] = '10 et 11 novembre 2018';
-		$this->weekend_dates['samedi'] = 'samedi 10 novembre 2018';
-		$this->weekend_dates['dimanche'] = 'dimanche 11 novembre 2017';
+		$this->weekend_dates['dates'] = '9 et 10 novembre 2019';
+		$this->weekend_dates['samedi'] = 'samedi 9 novembre 2019';
+		$this->weekend_dates['dimanche'] = 'dimanche 10 novembre 2019';
 
 		$this->load->model('faq_model');
 		$this->load->library('form_validation');

@@ -2,6 +2,28 @@
 
 <div class="row">
 
+ <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <a href="<?php echo base_url(); ?>images/gagnant_tombola_2018.jpg"><img data-src="holder.js/400x266" alt="..." src="<?php echo base_url(); ?>images/gagnant_tombola_2018.jpg"></a>
+      <div class="caption">
+        <h3>Gagnant Tombola</h3>
+        <p>Heureux gagnant en 2018 :  Monsieur PERRAUD qui part avec un VTT neuf marque TREK de chez "Terre de Cycle", La Baule</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>Dons</h3>
+        <p>Dons à 2 associations MECENAT CHIRURGIE CARDIAQUE et une association qui répare les vélos mis au rebus dans une maison de quartier nazairienne.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <a href="https://fr-fr.facebook.com/terredecycle/" target="_blank"><img data-src="holder.js/400x266" alt="..." src="<?php echo base_url(); ?>images/terre_de_cycle_logo.png"></a>
@@ -12,9 +34,6 @@
       </div>
     </div>
   </div>
-
-
-
  <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
       <a href="<?php echo base_url(); ?>assets/animations/velos_decoratifs_2018.jpg"><img data-src="holder.js/400x266" alt="..." src="<?php echo base_url(); ?>assets/animations/velos_decoratifs_2018.jpg"></a>
@@ -62,6 +81,7 @@
         <p>Près de 500 000 vélos ont été déclarés volés en France en 2016, soit 1 369 vélos par jour.</p>
         <p>Venez rencontrer des bénévoles de l'association <b>Place au Velo</b> pour mieux vous protéger contre le vol de vélos</p>
         <p><span class="glyphicon glyphicon-save"></span> <?php echo anchor('downloads/flyer_vol_de_velo.pdf', 'Visualiser la présentation'); ?></p>
+        <p><span class="glyphicon glyphicon-save"></span> <?php echo anchor('downloads/ArticleOFSecurite.jpg', 'Visualiser les conseils de sécurité'); ?></p>
       </div>
     </div>
   </div>

@@ -1,4 +1,6 @@
 <h3>LA BOURSE AUX VELOS DANS LA PRESSE</h3>
+<h4>Ouest France - 18/11/2018</h4>
+<a href="<?php echo base_url(); ?>downloads/ArticleOuestFranceBAV2018.jpg"><img src="<?php echo base_url(); ?>downloads/ArticleOuestFranceBAV2018.jpg.jpg" alt="Presse" class="img-rounded sidebar-image" width="800px"></a>
 
 <h4>Presse Océan - Octobre 2017</h4>
 <a href="<?php echo base_url(); ?>images/BAV_PO_01102017.png"><img src="<?php echo base_url(); ?>images/BAV_PO_01102017.png" alt="Presse" class="img-rounded sidebar-image" width="800px"></a>

@@ -18,15 +18,15 @@
 
 	<div class="alert alert-info" style="border: 2px solid;">
 		<h3>Bienvenue sur le site de la Bourse aux Vélos organisée par l'Atlantique Vélo Sport !</h3>
-		<h5>Venez nous voir pour notre prochaine édition <span style="font-weight: bold; font-size: 18px;">les 10 et 11 novembre 2018</span> pour encore plus de bonnes affaires.</h5>
+		<h5>Venez nous voir pour notre prochaine édition <span style="font-weight: bold; font-size: 18px;">les 9 et 10 novembre 2019</span> pour encore plus de bonnes affaires.</h5>
 		<h5>Naviguer les différents pages pour en savoir plus sur cet évenement incontournable pour des passionnés de vélo.</h5>
 		<h5>Suivez l'actualité du club AVS et de la <b>Bourse aux Vélos</b> de <b>St Nazaire</b> sur <a href="https://www.facebook.com/avs44" target="_blank">Facebook</a></h5>
 		<h5>A bientôt !<h5>
 	</div>
 
-	<p>Fort du succès de la 14ème édition à la Soucoupe (6200 VISITEURS COMPTABILISES, près de 1000 VELOS DEPOSES, 70% des VELOS DEPOSES VENDUS), <b>La Bourse aux Vélos</b> de <b>St Nazaire</b> remet le grand plateau. Retrouvez-nous à <?php echo anchor('welcome/venir', 'la Soucoupe'); ?> pour notre <b>15ème</b> édition les <?php echo $this->weekend_dates['dates']; ?></p>
+	<p>Fort du succès de la 15ème édition à la Soucoupe (6000 VISITEURS COMPTABILISES, près de 1150 VELOS DEPOSES, 70% des VELOS DEPOSES VENDUS), <b>La Bourse aux 1000 Vélos</b> de <b>St Nazaire</b> remet le grand plateau. Retrouvez-nous à <?php echo anchor('welcome/venir', 'la Soucoupe'); ?> pour notre <b>16ème</b> édition les <?php echo $this->weekend_dates['dates']; ?></p>
 
-	<p>L’équipe de passionnés qui organisent avec sérieux cet évènement classé parmi les 5 plus grandes Bourses aux vélos de France vous accueillera pour faire de bonnes affaires. </p>
+	<p>L’équipe de passionnés qui organisent avec sérieux cet évènement classé parmi les 3 plus grandes Bourses aux vélos de France vous accueillera pour faire de bonnes affaires. </p>
 
 	<p style="text-align: center;"><a href="<?php echo base_url(); ?>assets/images/bav_013.png"><img src="<?php echo base_url(); ?>assets/images/bav_013.png" alt="Vélos" class="img-rounded sidebar-image" width="300px"></a></p>
 
@@ -36,6 +36,7 @@
 		<ul>
 			<li>Encore plus de volume donc plus de choix et de visibilité des vélos pour choisir plus facilement, et plus de parkings.</li>
 			<li>Des vélos en état de fonctionnement à tous les prix de 10€ pour les enfants jusqu’à 5000€ pour les plus beaux vélos.</li>
+			<li><b>NOUVEAUTE  2019:</b> Un show room dédié uniquement aux beaux vélos dont le prix de vente sera supérieur à 500 €</li>
 		</ul>
 
 
